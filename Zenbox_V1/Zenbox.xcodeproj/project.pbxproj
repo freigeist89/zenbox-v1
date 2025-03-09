@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC03ADD62D6D145B00A7B607 /* SFSymbolsPicker in Frameworks */ = {isa = PBXBuildFile; productRef = AC03ADD52D6D145B00A7B607 /* SFSymbolsPicker */; };
+		AC03AE292D7090AD00A7B607 /* CoreNFC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC03AE282D7090AD00A7B607 /* CoreNFC.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC03AD832D6C803700A7B607 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC03AD6A2D6C803500A7B607 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC03AD712D6C803500A7B607;
+			remoteInfo = Zenbox_V1;
+		};
+		AC03AD8D2D6C803700A7B607 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC03AD6A2D6C803500A7B607 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC03AD712D6C803500A7B607;
+			remoteInfo = Zenbox_V1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC03AD722D6C803500A7B607 /* Zenbox_V1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zenbox_V1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC03AD822D6C803700A7B607 /* Zenbox_V1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Zenbox_V1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC03AD8C2D6C803700A7B607 /* Zenbox_V1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Zenbox_V1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC03AE282D7090AD00A7B607 /* CoreNFC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreNFC.framework; path = System/Library/Frameworks/CoreNFC.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		AC03AD742D6C803500A7B607 /* Zenbox_V1 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Zenbox_V1;
+			sourceTree = "<group>";
+		};
+		AC03AD852D6C803700A7B607 /* Zenbox_V1Tests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Zenbox_V1Tests;
+			sourceTree = "<group>";
+		};
+		AC03AD8F2D6C803700A7B607 /* Zenbox_V1UITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Zenbox_V1UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC03AD6F2D6C803500A7B607 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC03AE292D7090AD00A7B607 /* CoreNFC.framework in Frameworks */,
+				AC03ADD62D6D145B00A7B607 /* SFSymbolsPicker in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC03AD7F2D6C803700A7B607 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC03AD892D6C803700A7B607 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC03AD692D6C803500A7B607 = {
+			isa = PBXGroup;
+			children = (
+				AC03AD742D6C803500A7B607 /* Zenbox_V1 */,
+				AC03AD852D6C803700A7B607 /* Zenbox_V1Tests */,
+				AC03AD8F2D6C803700A7B607 /* Zenbox_V1UITests */,
+				AC03AE272D7090AD00A7B607 /* Frameworks */,
+				AC03AD732D6C803500A7B607 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC03AD732D6C803500A7B607 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC03AD722D6C803500A7B607 /* Zenbox_V1.app */,
+				AC03AD822D6C803700A7B607 /* Zenbox_V1Tests.xctest */,
+				AC03AD8C2D6C803700A7B607 /* Zenbox_V1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC03AE272D7090AD00A7B607 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC03AE282D7090AD00A7B607 /* CoreNFC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC03AD712D6C803500A7B607 /* Zenbox_V1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC03AD962D6C803700A7B607 /* Build configuration list for PBXNativeTarget "Zenbox_V1" */;
+			buildPhases = (
+				AC03AD6E2D6C803500A7B607 /* Sources */,
+				AC03AD6F2D6C803500A7B607 /* Frameworks */,
+				AC03AD702D6C803500A7B607 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				AC03AD742D6C803500A7B607 /* Zenbox_V1 */,
+			);
+			name = Zenbox_V1;
+			packageProductDependencies = (
+				AC03ADD52D6D145B00A7B607 /* SFSymbolsPicker */,
+			);
+			productName = Zenbox_V1;
+			productReference = AC03AD722D6C803500A7B607 /* Zenbox_V1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC03AD812D6C803700A7B607 /* Zenbox_V1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC03AD992D6C803700A7B607 /* Build configuration list for PBXNativeTarget "Zenbox_V1Tests" */;
+			buildPhases = (
+				AC03AD7E2D6C803700A7B607 /* Sources */,
+				AC03AD7F2D6C803700A7B607 /* Frameworks */,
+				AC03AD802D6C803700A7B607 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC03AD842D6C803700A7B607 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AC03AD852D6C803700A7B607 /* Zenbox_V1Tests */,
+			);
+			name = Zenbox_V1Tests;
+			packageProductDependencies = (
+			);
+			productName = Zenbox_V1Tests;
+			productReference = AC03AD822D6C803700A7B607 /* Zenbox_V1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC03AD8B2D6C803700A7B607 /* Zenbox_V1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC03AD9C2D6C803700A7B607 /* Build configuration list for PBXNativeTarget "Zenbox_V1UITests" */;
+			buildPhases = (
+				AC03AD882D6C803700A7B607 /* Sources */,
+				AC03AD892D6C803700A7B607 /* Frameworks */,
+				AC03AD8A2D6C803700A7B607 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC03AD8E2D6C803700A7B607 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AC03AD8F2D6C803700A7B607 /* Zenbox_V1UITests */,
+			);
+			name = Zenbox_V1UITests;
+			packageProductDependencies = (
+			);
+			productName = Zenbox_V1UITests;
+			productReference = AC03AD8C2D6C803700A7B607 /* Zenbox_V1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC03AD6A2D6C803500A7B607 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					AC03AD712D6C803500A7B607 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					AC03AD812D6C803700A7B607 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = AC03AD712D6C803500A7B607;
+					};
+					AC03AD8B2D6C803700A7B607 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = AC03AD712D6C803500A7B607;
+					};
+				};
+			};
+			buildConfigurationList = AC03AD6D2D6C803500A7B607 /* Build configuration list for PBXProject "Zenbox" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC03AD692D6C803500A7B607;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				AC03ADD42D6D145B00A7B607 /* XCRemoteSwiftPackageReference "SFSymbolsPicker" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = AC03AD732D6C803500A7B607 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC03AD712D6C803500A7B607 /* Zenbox_V1 */,
+				AC03AD812D6C803700A7B607 /* Zenbox_V1Tests */,
+				AC03AD8B2D6C803700A7B607 /* Zenbox_V1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC03AD702D6C803500A7B607 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC03AD802D6C803700A7B607 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC03AD8A2D6C803700A7B607 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC03AD6E2D6C803500A7B607 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC03AD7E2D6C803700A7B607 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC03AD882D6C803700A7B607 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC03AD842D6C803700A7B607 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC03AD712D6C803500A7B607 /* Zenbox_V1 */;
+			targetProxy = AC03AD832D6C803700A7B607 /* PBXContainerItemProxy */;
+		};
+		AC03AD8E2D6C803700A7B607 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC03AD712D6C803500A7B607 /* Zenbox_V1 */;
+			targetProxy = AC03AD8D2D6C803700A7B607 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AC03AD942D6C803700A7B607 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC03AD952D6C803700A7B607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC03AD972D6C803700A7B607 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Zenbox_V1/Zenbox_V1.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Zenbox_V1/Preview Content\"";
+				DEVELOPMENT_TEAM = FNH9AH2GVN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Zenbox-V1-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Zenbox;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NFCReaderUsageDescription = "NFC used to unblock apps via physical device";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "konstantinsinger.Zenbox-V1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC03AD982D6C803700A7B607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Zenbox_V1/Zenbox_V1.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Zenbox_V1/Preview Content\"";
+				DEVELOPMENT_TEAM = FNH9AH2GVN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Zenbox-V1-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Zenbox;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NFCReaderUsageDescription = "NFC used to unblock apps via physical device";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "konstantinsinger.Zenbox-V1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AC03AD9A2D6C803700A7B607 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FNH9AH2GVN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "konstantinsinger.Zenbox-V1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zenbox_V1.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Zenbox_V1";
+			};
+			name = Debug;
+		};
+		AC03AD9B2D6C803700A7B607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FNH9AH2GVN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "konstantinsinger.Zenbox-V1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zenbox_V1.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Zenbox_V1";
+			};
+			name = Release;
+		};
+		AC03AD9D2D6C803700A7B607 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FNH9AH2GVN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "konstantinsinger.Zenbox-V1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Zenbox_V1;
+			};
+			name = Debug;
+		};
+		AC03AD9E2D6C803700A7B607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FNH9AH2GVN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "konstantinsinger.Zenbox-V1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Zenbox_V1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC03AD6D2D6C803500A7B607 /* Build configuration list for PBXProject "Zenbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC03AD942D6C803700A7B607 /* Debug */,
+				AC03AD952D6C803700A7B607 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC03AD962D6C803700A7B607 /* Build configuration list for PBXNativeTarget "Zenbox_V1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC03AD972D6C803700A7B607 /* Debug */,
+				AC03AD982D6C803700A7B607 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC03AD992D6C803700A7B607 /* Build configuration list for PBXNativeTarget "Zenbox_V1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC03AD9A2D6C803700A7B607 /* Debug */,
+				AC03AD9B2D6C803700A7B607 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC03AD9C2D6C803700A7B607 /* Build configuration list for PBXNativeTarget "Zenbox_V1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC03AD9D2D6C803700A7B607 /* Debug */,
+				AC03AD9E2D6C803700A7B607 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AC03ADD42D6D145B00A7B607 /* XCRemoteSwiftPackageReference "SFSymbolsPicker" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/alessiorubicini/SFSymbolsPicker";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AC03ADD52D6D145B00A7B607 /* SFSymbolsPicker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AC03ADD42D6D145B00A7B607 /* XCRemoteSwiftPackageReference "SFSymbolsPicker" */;
+			productName = SFSymbolsPicker;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = AC03AD6A2D6C803500A7B607 /* Project object */;
+}
